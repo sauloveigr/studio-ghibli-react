@@ -1,5 +1,6 @@
 import React from "react";
 import HomeSection, {
+    ButtonDiv,
     ContainerDiv,
     HeaderDiv,
     HomeImage,
@@ -8,6 +9,7 @@ import HomeSection, {
     MainTitleDiv,
     NameTitle,
     TextSection,
+    WrapperContainer,
 } from "./Home.styled";
 import Logo from "../Components/Logo";
 import NavBar from "../Components/NavBar";
@@ -17,6 +19,7 @@ import Twitter from "../assets/icons/twitter.svg";
 import Instagram from "../assets/icons/instagram.svg";
 import Youtube from "../assets/icons/youtube.svg";
 import GreenButton from "../Components/GreenButton";
+import SecondButton from "../Components/SecondButton";
 
 const Home = () => {
     return (
@@ -31,10 +34,12 @@ const Home = () => {
                         <NavLink src={Youtube}></NavLink>
                     </NavBar>
                 </HeaderDiv>
-                <ImageDiv>
-                    <HomeImage />
-                </ImageDiv>
-                <Container />
+                <WrapperContainer>
+                    <ImageDiv>
+                        <HomeImage />
+                    </ImageDiv>
+                    <Container />
+                </WrapperContainer>
             </HomeSection>
         </>
     );
@@ -54,7 +59,10 @@ export const Container = () => {
                     Chihiro chega a um mundo mágico dominado por uma bruxa.
                     Aqueles que a desobedecem são transformados em animais.
                 </TextSection>
-                <GreenButton></GreenButton>
+                <ButtonDiv>
+                    <GreenButton />
+                    <SecondButton/>
+                </ButtonDiv>
             </ContainerDiv>
         </>
     );

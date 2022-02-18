@@ -24,7 +24,6 @@ export const Button = styled.button`
     border: none;
     display: flex;
     align-items: center;
-    justify-content: space-space-between;
     padding: 0.7rem 2.5rem;
     clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
     cursor: pointer;
