@@ -27,6 +27,7 @@ export const Button = styled.button`
     justify-content: space-space-between;
     padding: 0.7rem 2.5rem;
     clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    cursor: pointer;
 `;
 
 export const ButtonText = styled.p`
