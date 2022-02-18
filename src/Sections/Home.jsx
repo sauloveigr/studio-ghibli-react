@@ -16,6 +16,7 @@ import Facebook from "../assets/icons/facebook.svg";
 import Twitter from "../assets/icons/twitter.svg";
 import Instagram from "../assets/icons/instagram.svg";
 import Youtube from "../assets/icons/youtube.svg";
+import GreenButton from "../Components/GreenButton";
 
 const Home = () => {
     return (
@@ -49,7 +50,11 @@ export const Container = () => {
                 <MainTitleDiv>
                     <MainTitle>A VIAGEM DE CHIHIRO</MainTitle>
                 </MainTitleDiv>
-                <TextSection></TextSection>
+                <TextSection>
+                    Chihiro chega a um mundo mágico dominado por uma bruxa.
+                    Aqueles que a desobedecem são transformados em animais.
+                </TextSection>
+                <GreenButton></GreenButton>
             </ContainerDiv>
         </>
     );

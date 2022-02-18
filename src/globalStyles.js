@@ -8,6 +8,10 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Poppins', sans-serif;
         color: #fff;
     }
+
+    :root {
+        --color-first: #658E76;
+    }
 `;
 
 export default GlobalStyle;
