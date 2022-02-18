@@ -32,7 +32,7 @@ export const HomeImage = styled.img.attrs({ src: Image })`
     width: 32rem;
 
     @media screen and (min-width: 992px) {
-        width: 33rem;
+        width: 40rem;
     }
 `;
 

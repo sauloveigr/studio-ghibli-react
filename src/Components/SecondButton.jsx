@@ -23,8 +23,9 @@ export const Button = styled.button`
         align-items: center;
         justify-content: space-between;
         padding: 0.7rem 2.5rem;
-        clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+        /* clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%); */
         cursor: pointer;
+        transform: skewX(-25deg);
     }
 `;
 
@@ -32,4 +33,6 @@ export const ButtonText = styled.p`
     font-size: 1rem;
     font-weight: 500;
     text-transform: uppercase;
+    transform: skewX(25deg);
+
 `;
