@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import Image from "../assets/images/home-image.png";
-import ImageFull from "../assets/images/home-image-full.png";
 
 const HomeSection = styled.section`
     width: 100vw;
@@ -32,7 +31,7 @@ export const HomeImage = styled.img.attrs({ src: Image })`
     width: 32rem;
 
     @media screen and (min-width: 992px) {
-        width: 40rem;
+        width: 50rem;
     }
 `;
 
@@ -105,7 +104,6 @@ export const WrapperContainer = styled.div`
 `;
 
 export const ButtonDiv = styled.div`
-
     @media screen and (min-width: 992px) {
         display: flex;
         width: 500px;
