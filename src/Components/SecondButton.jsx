@@ -23,7 +23,6 @@ export const Button = styled.button`
         align-items: center;
         justify-content: space-between;
         padding: 0.7rem 2.5rem;
-        /* clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%); */
         cursor: pointer;
         transform: skewX(-25deg);
     }

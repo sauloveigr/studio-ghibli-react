@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Image from "../assets/images/home-image.png";
+import Image from "../assets/images/haku.png";
 
 const HomeSection = styled.section`
     width: 100vw;
@@ -26,12 +26,10 @@ export const HeaderDiv = styled.div`
 `;
 
 export const HomeImage = styled.img.attrs({ src: Image })`
-    margin-top: -4rem;
-    margin-bottom: -4.5rem;
-    width: 32rem;
+    width: 25rem;
 
     @media screen and (min-width: 992px) {
-        width: 50rem;
+        width: 45rem;
     }
 `;
 
