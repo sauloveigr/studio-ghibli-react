@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/studio-ghibli-react/static/js/main.1e1da7ec.js",
+    "main.js": "/studio-ghibli-react/static/js/main.83871bf8.js",
     "static/media/haku.png": "/studio-ghibli-react/static/media/haku.8fbac6cd81cae8981af2.png",
     "static/media/logo.svg": "/studio-ghibli-react/static/media/logo.afcf2c36220123461d97c79ee436bb70.svg",
     "static/media/instagram.svg": "/studio-ghibli-react/static/media/instagram.df2286e3a2918e4a410519c7286c2a83.svg",
@@ -9,9 +9,9 @@
     "static/media/twitter.svg": "/studio-ghibli-react/static/media/twitter.c13e34c40ed7762606ed20681cc191b6.svg",
     "static/media/facebook.svg": "/studio-ghibli-react/static/media/facebook.e0be159256b6ef152df581ff3310aca4.svg",
     "static/media/arrow-button.svg": "/studio-ghibli-react/static/media/arrow-button.a72425a1d5b333848623a7694399efb1.svg",
-    "main.1e1da7ec.js.map": "/studio-ghibli-react/static/js/main.1e1da7ec.js.map"
+    "main.83871bf8.js.map": "/studio-ghibli-react/static/js/main.83871bf8.js.map"
   },
   "entrypoints": [
-    "static/js/main.1e1da7ec.js"
+    "static/js/main.83871bf8.js"
   ]
 }
