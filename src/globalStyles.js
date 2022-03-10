@@ -9,6 +9,10 @@ const GlobalStyle = createGlobalStyle`
         color: #fff;
     }
 
+   body {
+        background: linear-gradient(154.76deg, #628e75 3%, #1a4855 84.12%);
+    }
+
     :root {
         --color-first: #658E76;
     }

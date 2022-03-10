@@ -3,15 +3,20 @@ import Image from "../assets/images/haku.png";
 
 const HomeSection = styled.section`
     width: 100vw;
+    max-width: 500px;
     height: 100vh;
-    background: linear-gradient(154.76deg, #628e75 3%, #1a4855 84.12%);
+
+    @media screen and (min-width: 992px) {
+        height: 100vh;
+        max-width: 1440px;
+        margin-inline: auto;
+    }
 `;
 
 export default HomeSection;
 
 export const HeaderDiv = styled.div`
     width: 100vw;
-    height: 7rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,17 +24,21 @@ export const HeaderDiv = styled.div`
 
     @media screen and (min-width: 992px) {
         width: 70vw;
-        margin: 0 auto;
         padding-top: 2.563rem;
         margin-bottom: 4.75rem;
+        max-width: 1440px;
+        margin-inline: auto;
+
     }
 `;
 
 export const HomeImage = styled.img.attrs({ src: Image })`
-    width: 25rem;
+    width: 80vw;
+    max-width: 720px;
 
     @media screen and (min-width: 992px) {
         width: 45rem;
+        max-width: 720px;
     }
 `;
 
@@ -43,6 +52,7 @@ export const ImageDiv = styled.div`
 export const NameTitle = styled.h2`
     font-weight: 700;
     margin-bottom: 0.375rem;
+    font-size: 1.125rem;
 
     @media screen and (min-width: 992px) {
         font-size: 1.875rem;
@@ -64,7 +74,8 @@ export const MainTitle = styled.h1`
 
 export const TextSection = styled.p`
     font-weight: 400;
-    margin-bottom: 4.5rem;
+    font-size: 0.875rem;
+    margin-bottom: 3.625rem;
 
     @media screen and (min-width: 992px) {
         font-size: 1rem;
@@ -72,11 +83,15 @@ export const TextSection = styled.p`
 `;
 
 export const MainTitleDiv = styled.div`
-    width: 70vw;
+    width: auto;
 
     @media screen and (min-width: 992px) {
         width: 21vw;
     }
+`;
+
+export const TitleSpan = styled.div`
+    display: block;
 `;
 
 export const ContainerDiv = styled.div`

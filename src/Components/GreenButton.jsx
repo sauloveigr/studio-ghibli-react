@@ -27,10 +27,18 @@ export const Button = styled.button`
     padding: 0.7rem 2.5rem;
     clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
     cursor: pointer;
+    transition: 200ms linear;
+
+    &:hover {
+        /* transform: translateY(-3px); */
+        /* background-color: #847da7; */
+        transition: 200ms linear;
+    }
 `;
 
 export const ButtonText = styled.p`
     font-size: 1rem;
     font-weight: 500;
     text-transform: uppercase;
+    transition: 200ms linear;
 `;

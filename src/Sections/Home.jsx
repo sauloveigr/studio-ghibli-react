@@ -9,6 +9,7 @@ import HomeSection, {
     MainTitleDiv,
     NameTitle,
     TextSection,
+    TitleSpan,
     WrapperContainer,
 } from "./Home.styled";
 import Logo from "../Components/Logo";
@@ -28,10 +29,10 @@ const Home = () => {
                 <HeaderDiv>
                     <Logo />
                     <NavBar>
-                        <NavLink src={Facebook}></NavLink>
-                        <NavLink src={Instagram}></NavLink>
-                        <NavLink src={Twitter}></NavLink>
-                        <NavLink src={Youtube}></NavLink>
+                        <NavLink src={Facebook} />
+                        <NavLink src={Instagram} />
+                        <NavLink src={Twitter} />
+                        <NavLink src={Youtube} />
                     </NavBar>
                 </HeaderDiv>
                 <WrapperContainer>
@@ -53,7 +54,9 @@ export const Container = () => {
             <ContainerDiv>
                 <NameTitle>HAYAO MIYAZAKI</NameTitle>
                 <MainTitleDiv>
-                    <MainTitle>A VIAGEM DE CHIHIRO</MainTitle>
+                    <MainTitle>
+                        A VIAGEM <TitleSpan>DE CHIHIRO</TitleSpan>
+                    </MainTitle>
                 </MainTitleDiv>
                 <TextSection>
                     Chihiro chega a um mundo mágico dominado por uma bruxa.
@@ -61,7 +64,7 @@ export const Container = () => {
                 </TextSection>
                 <ButtonDiv>
                     <GreenButton />
-                    <SecondButton/>
+                    <SecondButton />
                 </ButtonDiv>
             </ContainerDiv>
         </>

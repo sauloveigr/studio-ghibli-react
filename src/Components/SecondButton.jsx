@@ -15,6 +15,12 @@ export default GreenButton;
 
 export const Button = styled.button`
     display: none;
+    transition: 200ms linear;
+
+    &:hover {
+        transition: 100ms linear;
+        border: 2px solid #847da7;
+    }
 
     @media screen and (min-width: 992px) {
         background-color: transparent;
@@ -33,5 +39,4 @@ export const ButtonText = styled.p`
     font-weight: 500;
     text-transform: uppercase;
     transform: skewX(25deg);
-
 `;
