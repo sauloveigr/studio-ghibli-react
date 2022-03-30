@@ -14,7 +14,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Bibliotecas
 
 - Styled-components
-- gh-pages
+- Gh-pages
 
 ## 💻  Projeto
 
