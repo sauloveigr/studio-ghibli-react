@@ -13,7 +13,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Bibliotecas
 
--   Styled-components
+- Styled-components
+- gh-pages
 
 ## 💻  Projeto
 
